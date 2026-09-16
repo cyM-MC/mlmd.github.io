@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLMD Group - Machine Learning & Mechanism Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- 替换此处：添加 logo 图片与文字的组合 -->
+            <a href="index.html" class="logo-container">
+                <img src="jlusai.jpeg" alt="JLUA Logo" class="nav-logo-img">
+                <h1 class="logo">MLMD Group</h1>
+            </a>
+            
+            <ul class="nav-links">
+                <!-- 这里保留你原有的链接，无需改动 -->
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#research">Research Areas</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#publications">Publications</a></li>
+                <li><a href="index.html#team">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 头部横幅 -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Machine Learning & Mechanism Design</h2>
+            <p>Advancing the intersection of artificial intelligence, continuous learning, and intelligent physical systems.</p>
+            <a href="#research" class="btn">Explore Our Research</a>
+        </div>
+    </header>
+
+    <!-- 简介部分 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p class="about-text">
+                Welcome to the MLMD (Machine Learning & Mechanism Design) Group. Our research focuses on developing robust machine learning algorithms and applying them to complex engineering and design problems. We strive to bridge the gap between theoretical AI models and real-world intelligent systems.
+            </p>
+        </div>
+    </section>
+    <!-- 团队成员 -->
+    <section id="team" class="section">
+        <div class="container">
+            <h2 class="section-title">Current Students</h2>
+
+            <div class="team-container">
+                <!-- PhD Students -->
+                <div class="team-group">
+                    <h3 class="team-role">PhD Students</h3>
+                    <ul class="student-list">
+                        <li><span class="year-badge">26 Fall</span> Mr. Zhiqiang Guo (MLLM)</li>
+                        <li><span class="year-badge">25 Fall</span> Mr. Yicheng Zhao (LLM Agents), Mr. Bicong Sang (Evolutionary Computing)</li>
+                    </ul>
+                </div>
+
+                <!-- Master Students -->
+                <div class="team-group">
+                    <h3 class="team-role">Master Students</h3>
+                    <ul class="student-list">
+                        <li><span class="year-badge">26 Fall</span> Mr. Bingyu Cao (Continual Learning), Mr. Zishan Zhao (LLM Agents), Mr. Fulin Min, Mr. Wenjun Chen</li>
+                        <li><span class="year-badge">25 Fall</span> Mr. Yingying Wu (LLM Agents), Mr. Kaiquan Hu (LLM Agents), Mr. Liangenrong Shi (AI4Sci), Mr. Hanran Zhou (LLM Agents)</li>
+                    </ul>
+                </div>
+
+                <!-- Undergraduate Students -->
+                <div class="team-group">
+                    <h3 class="team-role">Undergraduate Students</h3>
+                    <ul class="student-list">
+                        <li><span class="year-badge">25 Fall</span> Mr. Zijie Xi (AI4PDE), Mr. Yibo Wang (AI4PDE)</li>
+                        <li><span class="year-badge">24 Fall</span> Miss. Chang Wang (LLM Agents & Security), Mr. Ruoyu Zhang (LLM Agents & Security), Mr. Huiyu Gong (Continual Learning)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 主页的项目概览板块 -->
+    <section id="projects-overview" class="section">
+        <div class="container">
+            <h2 class="section-title">Research Projects</h2>
+            <div class="grid">
+                <!-- 项目 1 概览卡片 -->
+                <div class="card">
+                    <!-- 点击标题跳转到 projects.html 的 project-1 位置 -->
+                    <h3><a href="projects.html#project-1" class="project-link">Construction of a Lithium Battery Knowledge Base Based on LLM</a></h3>
+                    <p>A comprehensive RAG-based framework for automatic scientific literature processing and intelligent question-answering in the lithium battery domain.</p>
+                    <a href="projects.html#project-1" class="read-more">View Details &rarr;</a>
+                </div>
+                
+                <!-- 未来有新项目可以直接在这里复制添加卡片 -->
+            </div>
+        </div>
+    </section>
+    <!-- 发表论文 -->
+    <section id="publications" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Selected Publications</h2>
+            
+            <div class="pub-list">
+                <!-- 论文 1 -->
+                <div class="pub-item">
+                    <h3 class="pub-title">A Low-Rank Perspective on Similarity Matrix Completion</h3>
+                    <p class="pub-authors"><strong>Changyi Ma</strong><sup>1</sup>, Runsheng Yu<sup>1</sup>, Xiao Chen, Youzhi Zhang, Zhen Lei.</p>
+                    <div class="pub-venue">
+                        <span class="conf-badge">TKDE 2026</span>
+                        <span class="ccf-badge ccf-a">CCF A</span>
+                    </div>
+                </div>
+
+                <!-- 论文 2 -->
+                <div class="pub-item">
+                    <h3 class="pub-title">Deep Noisy-Label Learning via Effective Rank Reduction</h3>
+                    <p class="pub-authors"><strong>Changyi Ma</strong>, Zihan Fang, Lihua Zhou, Tao Li, Wenyu Liu, Runsheng Yu, Xuan Song.</p>
+                    <!-- 这篇如果没有特定的会议/期刊标签，可以留空或以后添加 -->
+                </div>
+
+                <!-- 论文 3 -->
+                <div class="pub-item">
+                    <h3 class="pub-title">Diagnosing Parametric Contamination in LoRA-Based RAG Distillation</h3>
+                    <p class="pub-authors">Yingying Wu, Xiao Chen, <strong>Changyi Ma</strong><sup>*</sup>, Xuan Song.</p>
+                    <div class="pub-venue">
+                        <span class="conf-badge">CIKM 2026</span>
+                        <span class="ccf-badge ccf-b">CCF B</span>
+                    </div>
+                </div>
+
+                <!-- 论文 4 -->
+                <div class="pub-item">
+                    <h3 class="pub-title">RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intentions</h3>
+                    <p class="pub-authors">Xiao Chen, Yicheng Zhao, Yingying Wu, Zhendong Chu, <strong>Changyi Ma</strong><sup>*</sup>, Qingsong Wen, Xuan Song.</p>
+                    <div class="pub-venue">
+                        <span class="conf-badge">EMNLP 2026</span>
+                        <span class="ccf-badge ccf-b">CCF B</span>
+                    </div>
+                </div>
+
+                <!-- 论文 5 -->
+                <div class="pub-item">
+                    <h3 class="pub-title">Reinforcement Fine-Tuning Naturally Mitigates Forgetting in Continual Post-Training</h3>
+                    <p class="pub-authors">Song Lai, Haohan Zhao, Rong Feng, <strong>Changyi Ma</strong>, Wenzhuo Liu, Hongbo Zhao, Xi Lin, Dong Yi, Min Xie, Qingfu Zhang, Hongbin Liu, Gaofeng Meng, Fei Zhu.</p>
+                    <div class="pub-venue">
+                        <span class="conf-badge">ICML 2026</span>
+                        <span class="ccf-badge ccf-a">CCF A</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 页脚 -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <p>&copy; Jilin University, School of Articial Intelligence, MLMD Group. All rights reserved.</p>
+            <p>Contact: <a href="mailto:changyima@jlu.edu.cn">changyima@jlu.edu.cn</a></p>
+        </div>
+    </footer>
+</body>
+</html>

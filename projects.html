@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - MLMD Group</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 (注意这里的链接指向了 index.html) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">MLMD Group</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#research">Research</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#publications">Publications</a></li>
+                <li><a href="index.html#team">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 页面标题横幅 -->
+    <header class="hero" style="padding: 60px 20px;">
+        <div class="hero-content">
+            <h2>Research Projects</h2>
+            <p>Detailed overviews of our ongoing and completed research endeavors.</p>
+        </div>
+    </header>
+
+<!-- 重点研究项目 -->
+    <section id="featured-projects" class="section bg-light">
+        <div class="container">
+             
+            <div class="ppt-layout-card" id="project-1">
+                
+                <!-- 项目标题 -->
+                <div class="ppt-header">
+                    <h1 class="project-id">PROJECT 1:</h1>
+                    <h2 class="project-full-title">Construction of a Lithium Battery Knowledge Base Based on LLM</h2>
+                </div>
+                 
+                <!-- 团队人员 -->
+                <div class="ppt-team-info">
+                    <p><strong>Principal Researchers:</strong> 吴盈盈 (Yingying Wu, 25 Fall Mater); 胡开泉 (Kaiquan Hu25 Fall Mater) </p>
+                </div>
+<!-- 核心内容区：图文排版 -->
+                <div class="ppt-content-sections">
+                    <!-- 第一部分：整体系统架构 -->
+                    <div class="ppt-section-block">
+                        <h3>1. OVERALL SYSTEM ARCHITECTURE</h3>
+                        <p class="section-desc">The figure below illustrates the end-to-end architecture of our RAG (Retrieval-Augmented Generation) system. It details the complete workflow from raw document preprocessing and vectorization (`bge-m3`), to multi-stage precision retrieval, and finally to LLM-driven intelligent answer generation.</p>
+                        <div class="image-container">
+                            <img src="s1.png" alt="Overall System Architecture" class="project-image">
+                        </div>
+                    </div>
+
+                    <!-- 第二部分：数据挖掘流程 -->
+                    <div class="ppt-section-block">
+                        <h3>2. LLM-POWERED DATA MINING PIPELINE</h3>
+                        <p class="section-desc">This pipeline demonstrates our multi-agent approach to data mining. By utilizing sequential stages—Material Discovery, Rule Screening, and Unified Extraction—the system efficiently filters out noise and transforms unstructured scientific texts into highly structured JSON data formats.</p>
+                        <div class="image-container">
+                            <img src="s2.png" alt="Data Mining Pipeline" class="project-image">
+                        </div>
+                    </div>
+
+                    <!-- 第三部分：统计与可视化 -->
+                    <div class="ppt-section-block">
+                        <h3>3. KNOWLEDGE BASE STATISTICS & VISUALIZATIONS</h3>
+                        <p class="section-desc">Based on the constructed knowledge base, we conducted deep statistical analysis. The charts highlight key trends, including the frequency of extracted material properties and battery performance metrics, as well as the elemental composition distribution of anode materials.</p>
+                        <div class="image-container">
+                            <img src="s3.png" alt="Statistics and Visualizations" class="project-image">
+                        </div>
+                    </div>
+                </div> <!-- End ppt-content-sections -->
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MLMD Group. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
