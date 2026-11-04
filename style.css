@@ -109,6 +109,14 @@ body {
     color: #1a365d;
 }
 
+.pub-list {
+    padding-left: 1.5rem;
+}
+
+.pub-item {
+    margin-bottom: 0.9rem;
+}
+
 .bg-light {
     background-color: #f7fafc;
 }
