@@ -10,3 +10,7 @@ a:focus-visible{outline:3px solid #d69e2e;outline-offset:4px}.skip-link{position
 @media(max-width:768px){.projects-hero{padding:36px 20px}.projects-hero h1{font-size:2rem}.project-header{padding-top:32px}.project-header h2{font-size:2.5rem}.project-subtitle{font-size:1.2rem}.project-section h3{font-size:1.4rem}.project-section{padding:32px 0;scroll-margin-top:170px}.figure-pair,.knowledge-layout,.process{grid-template-columns:1fr}.section-nav{gap:10px 20px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .project-header h2 .project-full-name{font-size:.55em;font-weight:500;display:inline-block;vertical-align:middle;line-height:1.4}.project-repository{margin-top:12px;font-size:.92rem;color:#4a5568}.project-repository a{color:#2b6cb0;text-underline-offset:3px;overflow-wrap:anywhere}
+
+.additional-project{border-top:3px solid #1a365d;margin-top:32px}article[id]{scroll-margin-top:100px}@media(max-width:768px){article[id]{scroll-margin-top:170px}}
+
+.project-contact{margin-top:14px;font-size:.92rem;color:#4a5568}.project-contact a{color:#2b6cb0;text-underline-offset:3px;overflow-wrap:anywhere}
