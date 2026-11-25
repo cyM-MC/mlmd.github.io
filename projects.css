@@ -14,3 +14,5 @@ a:focus-visible{outline:3px solid #d69e2e;outline-offset:4px}.skip-link{position
 .additional-project{border-top:3px solid #1a365d;margin-top:32px}article[id]{scroll-margin-top:100px}@media(max-width:768px){article[id]{scroll-margin-top:170px}}
 
 .project-contact{margin-top:14px;font-size:.92rem;color:#4a5568}.project-contact a{color:#2b6cb0;text-underline-offset:3px;overflow-wrap:anywhere}
+
+.project-back{padding-top:24px}.project-back a{color:#2b6cb0;text-underline-offset:3px}.project-back+.project-header{padding-top:24px}
